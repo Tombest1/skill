@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 
 }
 body{
@@ -82,7 +83,10 @@ button{
     border: none;
 
 }
+#up{
+    display: none;
 
+}
 span a{
     text-decoration: none;
     margin-left: 30px;
@@ -193,6 +197,25 @@ hr{
         width: 80%;
         margin-left: 10%;
     }    
+    h4{
+       display: none;
+    
+    }
+    #up{
+        text-align: center;
+        margin-top: 4px;
+        padding-top: 5px;
+
+    }
+    #up a{
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+
+    }
+        
+    
+    }
     
       
 }
